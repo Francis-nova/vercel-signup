@@ -1,0 +1,218 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700&display=swap");
+
+/* body */
+body {
+  color: #fff;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", sans-serif;
+}
+
+.session {
+  /* height: 100vh; */
+  position: absolute;
+  /* top: 0;
+  bottom: 0; */
+
+  /* min-height:100%; */
+}
+
+.bg-lighter-dark {
+  background-color: #111111;
+  border-right: 1px solid #333;
+}
+
+.bg-darker {
+  background-color: #000000;
+}
+
+.container {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  margin: 40px;
+  outline: none;
+  padding: 0 14%;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+  margin: 50px 0px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.029375rem;
+}
+
+.infoList {
+  margin-bottom: 20px;
+}
+
+.geist-text {
+  line-height: 1.5;
+  font-family: "Inter", sans-serif;
+}
+
+.geist-text-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #888888;
+  font-family: "Inter", sans-serif;
+}
+
+.thirdText {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0;
+  padding-left: 0;
+  color: #888888;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  margin-bottom: 50px;
+}
+
+.imageList {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  --flex: 0 0 auto;
+  --justify-content: flex-start;
+  --align-items: center;
+}
+
+.img-responsive {
+  --gap-ratio: 1;
+  max-height: 25px;
+  max-width: auto;
+  display: inline;
+  padding-right: 20px;
+}
+
+.signup-page {
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.geist-text.w-600 {
+  font-weight: 600;
+}
+
+.geist-text.h1 {
+  font-size: 3rem;
+  letter-spacing: -0.066875rem;
+  font-weight: 700;
+  line-height: 1.2 !important;
+}
+
+.geist-text.p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #888;
+  margin: 0px;
+}
+
+.geist-text > a {
+  color: #fff !important;
+  padding: 0px 5px !important;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.secondText {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  border-bottom: none;
+  text-decoration: none;
+  color: #3291ff;
+}
+
+.secondText:hover {
+  border-bottom: 1px solid #3291ff;
+}
+
+.btn {
+  border-radius: 5px;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  width: 350px;
+  margin: 10px 0;
+  padding: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border: none;
+}
+
+.btn-block {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+}
+
+.btn-github {
+  background-color: #24292e;
+}
+
+.btn-github:hover {
+  background-color: #555;
+}
+
+.btn-gitlab {
+  background-color: #6b4fbb;
+}
+
+.btn-gitlab:hover {
+  background-color: #8367d3;
+}
+
+.btn-bitbucket {
+  background-color: #0052cc;
+}
+
+.btn-bitbucket:hover {
+  background-color: #1668e2;
+}
+
+.btn-email {
+  width: 350px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  color: #3291ff !important;
+}
+
+.btn-email a {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #3291ff !important;
+}
+
+.btn-email a:hover {
+  border-bottom: 1px solid #3291ff;
+}
+
+.divider {
+  border-bottom: 1px solid #333;
+  width: 350px;
+  margin: 20px 0px;
+}
+
+.sign-section {
+  color: #fff !important;
+}
+
+.sign-section > a {
+  color: #3291ff !important;
+}
